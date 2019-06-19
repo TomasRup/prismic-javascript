@@ -1,5 +1,5 @@
 // Number of maximum simultaneous connections to the prismic server
-const MAX_CONNECTIONS: number = 20;
+const MAX_CONNECTIONS: number = 100;
 // Number of requests currently running (capped by MAX_CONNECTIONS)
 let running: number = 0;
 
